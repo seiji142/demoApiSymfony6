@@ -1,0 +1,26 @@
+{
+    "name": "proyecto/doctrine2",
+    "description": "Ejemplo Doctrine",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^2.12",
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Proyecto\\Doctrine2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seiji142",
+            "email": "seijitsumura1985@gmail.com"
+        }
+    ],
+    "config": {
+	"bin-dir": "bin"
+	}	
+}
